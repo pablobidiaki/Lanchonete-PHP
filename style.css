@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.61),rgba(25, 25, 24, 0.726) .100%), url("img.png");
+    background-size: cover;
+    font-family: 'Grandstander';
+    font-weight: 600;
+}
+
+h1{
+    text-align: center;
+    color: #FD892D;
+
+}
+
+div{
+    display: block;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.726);
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+    padding: 4px;
+}
+
+p {
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    width: 150px;
+    border: 1px solid black;
+    border-radius:20px ;
+}
+
+.enviar{
+    text-align: center;
+}
+
+.botao{
+    background-color: #FD892D;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.botao:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
